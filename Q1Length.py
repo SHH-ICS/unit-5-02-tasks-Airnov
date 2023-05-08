@@ -2,9 +2,9 @@
 # Make this program in a loop with option to exit when the use types in quit.
 
 while True:
-    a = input("Please enter a word (or type 'quit' to exit): ")
-    if a == "quit":
+    a = input("Enter a word to see how many letters it has 'stop' to end the program: ")
+    if a =="stop":
         break
     l = len(a)
-    print("The length of the word is:", l)
+    print("The word is these many letters long:", l)
 
