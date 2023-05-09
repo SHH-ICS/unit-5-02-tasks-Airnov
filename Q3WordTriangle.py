@@ -5,3 +5,14 @@
 # PYTH
 # PYTHO
 # PYTHON
+
+
+word = input("Enter a word: ")
+
+for i in range(len(word)):
+    print(word[:i+1].ljust(len(word)))
+
+for i in range(len(word)-2, -1, -1):
+    print(word[:i+1].ljust(len(word)))
+
+#I dont know how to stop the pyramid at Python 
